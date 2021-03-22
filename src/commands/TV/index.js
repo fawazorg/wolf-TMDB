@@ -4,6 +4,7 @@ const TVGenre = require("./TVGenre");
 const TVGenres = require("./TVGenres");
 const TVSearch = require("./TVSearch");
 const TVPopular = require("./TVPopular");
+const TVHelp = require("./TVHelp");
 
 const TVShowCommands = [
   ...TV.Commands,
@@ -12,6 +13,7 @@ const TVShowCommands = [
   ...TVGenres.Commands,
   ...TVSearch.Commands,
   ...TVPopular.Commands,
+  ...TVHelp.Commands,
 ];
 
 const TVShowTranslation = [
@@ -21,6 +23,7 @@ const TVShowTranslation = [
   ...TVGenres.Translation,
   ...TVSearch.Translation,
   ...TVPopular.Translation,
+  ...TVHelp.Translation,
 ];
 
 module.exports = {

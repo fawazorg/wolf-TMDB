@@ -16,7 +16,7 @@ const Translation = [
  * @param {Client} bot
  * @param {CommandContext} context
  */
-const movieGenres = async (bot, context) => {
+const movieHelp = async (bot, context) => {
   await context.Reply(help.Moviehelp.help[context.Language]);
 };
 
@@ -25,7 +25,7 @@ const movieGenres = async (bot, context) => {
  */
 const Commands = [
   new Command("MOVIE_HELP", {
-    method: (null, movieGenres),
+    method: (null, movieHelp),
     filters: [new GroupFilter()],
   }),
 ];
