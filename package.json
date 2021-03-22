@@ -1,0 +1,37 @@
+{
+  "name": "wolf-the-movie-db",
+  "version": "1.0.0",
+  "description": "A movie DB bot for Wolf.live.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "nodemon test.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "wolflive",
+    "palringo",
+    "tmdb"
+  ],
+  "author": "Fawazorg",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.18.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-node": "^4.1.0",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "prettier": "^2.2.1"
+  },
+  "dependencies": {
+    "@leonardocabeza/the-movie-db": "^4.1.1",
+    "commands.wolf.js": "github:fawazorg/commands.wolf.js",
+    "dotenv": "^8.2.0",
+    "jimp": "^0.16.1",
+    "wolf.js": "github:fawazorg/wolf.js"
+  }
+}
